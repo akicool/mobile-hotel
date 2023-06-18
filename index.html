@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__heading heading">
+                <div class="header__title">
+                    <img src="img/arrow.svg" alt="arrow">
+                    Заголовок
+                    <img src="img/pen.png" alt="pen">
+                </div>
+                <img src="img/dots.svg" alt="more">
+            </div>
+        </header>
+        <div class="field">
+            <input type="text" class="field__input" placeholder="Напишите или скопируйте что-нибудь">
+        </div>
+        <div class="add">
+            <button class="add__btn geo">
+                <img src="img/geo.svg" alt="geo">
+                <p id="place" class="add__btn-text">Добавить место</p>
+            </button>
+            <button class="add__btn sticker">
+                <img src="img/sticker.svg" alt="sticker">
+                <p id="note" class="add__btn-text">Добавить заметку</p>
+            </button>
+            <button class="add__btn list">
+                <img src="img/list.svg" alt="list">
+                <p id="task" class="add__btn-text">Добавить список</p>
+            </button>
+        </div>
+        <div class="recommended">
+            <div class="recommended__header">
+                <p class="recommended__text">Рекомендуемые места</p>
+                <img src="img/arrow_recomm.svg" alt="arrow">
+            </div>
+            <div class="card">
+                <div class="card__object">
+                    <img src="img/card/card_img.svg" alt="card">
+                    <div class="card__content">
+                        <div class="card__title">Архитектурный комплекс</div>
+                        <div class="card__name">Стадион</div>
+                        <div class="card__rating">Рейтинг 4.2</div>
+                        <div class="card__btn">
+                            <img src="img/card/card_plus.svg" alt="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="card__object">
+                    <img src="img/card/card_img.svg" alt="card">
+                    <div class="card__content">
+                        <div class="card__title">Архитектурный комплекс</div>
+                        <div class="card__name">Стадион</div>
+                        <div class="card__rating">Рейтинг 4.2</div>
+                        <div class="card__btn">
+                            <img src="img/card/card_plus.svg" alt="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="card__object">
+                    <img src="img/card/card_img.svg" alt="card">
+                    <div class="card__content">
+                        <div class="card__title">Архитектурный комплекс</div>
+                        <div class="card__name">Стадион</div>
+                        <div class="card__rating">Рейтинг 4.2</div>
+                        <div class="card__btn">
+                            <img src="img/card/card_plus.svg" alt="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <img src="img/geo.svg" alt="geo">
+                    <p class="search__more">Найти больше</p>
+                    <div class="search__btn">
+                        <img src="img/magnifier.svg" alt="magnifier">
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="check-list">
+            <div class="check-list__content">
+                <p class="check-list__title">Заголовок</p>
+                <div class="check-box">
+                    <input type="checkbox">
+                    <p class="check-box__text">Сделать что-то</p>
+                </div>
+                <button class="check-list__btn">Добавить пункт</button>
+            </div>
+        </div>
+        <div class="check-list">
+            <div class="check-list__content">
+                <p class="check-list__title">Заголовок</p>
+                <div class="check-box">
+                    <input type="checkbox">
+                    <p class="check-box__text">Сделать что-то</p>
+                </div>
+                <button class="check-list__btn">Добавить пункт</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
