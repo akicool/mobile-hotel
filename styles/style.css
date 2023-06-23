@@ -176,15 +176,12 @@ p {
 .card {
   display: flex;
   margin-top: 17px;
-  overflow: auto;
   margin-bottom: 32px;
 }
 .card__object {
   display: flex;
-  justify-content: space-between;
-  max-width: 238px;
+  justify-content: space-evenly;
   width: 100%;
-  margin-right: 32px;
 }
 .card__content {
   margin-left: 8px;
@@ -230,7 +227,7 @@ p {
 .search {
   display: flex;
   align-items: center;
-  max-width: 230px;
+  justify-content: center;
 }
 .search__more {
   width: 112px;
@@ -289,6 +286,10 @@ p {
 }
 .check-box__text {
   margin-left: 8px;
+}
+
+.check-box:not(:first-child) {
+  margin-top: 5px;
 }
 
 .check-list:last-child {
