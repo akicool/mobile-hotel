@@ -262,12 +262,21 @@ p {
     border: 1px solid #F5F5F5;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .search {
     display: flex;
     align-items: center;
     justify-content: center;
-    // max-width: 230px;
+    border: 1px solid #F5F5F5;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 230px;
     
     &__more {
         width: 112px;
